@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -7,6 +7,26 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  const links = (
+    <>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/Shop">Shop</NavLink>
+      </li>
+      <li>
+        <NavLink to="/Products">Products</NavLink>
+      </li>
+      <li>
+        <NavLink to="/Pages">Pages</NavLink>
+      </li>
+      <li>
+        <NavLink to="/Blogs">Blogs</NavLink>
+      </li>
+    </>
+  );
 
   return (
     <nav className="bg-black p-4">
