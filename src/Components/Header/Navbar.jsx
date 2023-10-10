@@ -8,26 +8,6 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const links = (
-    <>
-      <li>
-        <NavLink to="/">Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="/Shop">Shop</NavLink>
-      </li>
-      <li>
-        <NavLink to="/Products">Products</NavLink>
-      </li>
-      <li>
-        <NavLink to="/Pages">Pages</NavLink>
-      </li>
-      <li>
-        <NavLink to="/Blogs">Blogs</NavLink>
-      </li>
-    </>
-  );
-
   return (
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
