@@ -9,7 +9,7 @@ const HeroSection = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2023-12-31T00:00:00"); // Set your target date and time here
+    const targetDate = new Date("2023-10-31T00:00:00"); // Set your target date and time here
 
     const updateTimer = () => {
       const currentTime = new Date();
@@ -41,7 +41,8 @@ const HeroSection = () => {
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage: 'url("your-background-image.jpg")', // Replace with the URL of your background image
+        backgroundImage:
+          'url("https://i.ibb.co/BfTyn66/markus-spiske-Mb-G7kw-Wpt-II-unsplash.jpg")',
         backgroundPosition: "right",
         backgroundSize: "cover",
       }}
