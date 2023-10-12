@@ -25,7 +25,6 @@ const Blog = () => {
           {/* Add more blog posts here */}
         </div>
       </div>
-      ); };
     </div>
   );
 };

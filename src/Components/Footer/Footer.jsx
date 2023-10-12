@@ -39,10 +39,11 @@ const Footer = () => {
           <div className="flex flex-col items-center">
             <h4 className="font-bold text-lg">Accepted Payments</h4>
             {/* Add your payment method logos here */}
-            <div className="flex space-x-4 mt-4">
-              <img src="/images/payment-method1.png" alt="Payment Method 1" />
-              <img src="/images/payment-method2.png" alt="Payment Method 2" />
-              <img src="/images/payment-method3.png" alt="Payment Method 3" />
+            <div className="mx-10">
+              <img
+                src="https://i.ibb.co/6bpdj8d/a6402468-6140-4958-bc85-1d4db76d9b1a.png"
+                alt="Payment Method 1"
+              />
             </div>
           </div>
         </div>
