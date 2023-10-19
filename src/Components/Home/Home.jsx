@@ -1,8 +1,6 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import cardData from "../data/data.json";
-import DealOfDay from "../Sections/DealOfDay";
-import FlashSale from "../Sections/FlashSale";
 import Card from "../Sections/Card";
 import MeetTheTeam from "../Sections/MeetTHeTeam";
 
@@ -16,8 +14,6 @@ const Home = () => {
         ))}
       </div>
       <MeetTheTeam></MeetTheTeam>
-      <DealOfDay></DealOfDay>
-      <FlashSale></FlashSale>
     </div>
   );
 };
