@@ -154,4 +154,3 @@ const Shop = () => {
 };
 
 export default Shop;
-<h4>This is shop</h4>;

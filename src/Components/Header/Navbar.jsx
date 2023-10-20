@@ -33,10 +33,13 @@ const Navbar = () => {
                 Home
               </Link>
               <Link to="/products" className="hover:underline text-black">
-                Products
+                Add Products
               </Link>
               <Link to="/my-cart" className="hover:underline text-black">
                 My Cart
+              </Link>
+              <Link to="/About" className="hover:underline text-black">
+                About
               </Link>
             </div>
           </div>
@@ -47,10 +50,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link to="/products" className="hover:underline text-black">
-            Products
+            Add Products
           </Link>
           <Link to="/my-cart" className="hover:underline text-black">
             My Cart
+          </Link>
+          <Link to="/About" className="hover:underline text-black">
+            About
           </Link>
         </div>
 
